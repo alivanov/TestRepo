@@ -93,7 +93,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#wrap{
+.wrap{
       width: 1000px;
       margin: 0 auto;
       background-color: yellow;
@@ -102,8 +102,39 @@ textarea {
       background-repeat: no-repeat;
 }
 
-#header {
-      height: 514px;
+
+.button {
+      box-shadow: 3px 3px 3px #333333;
+      background-color: #ffffff;
+      border:1px solid #d8d8d8;
+      display: inline-block;
+      color: #000000;
+      font: 12.75px Verdana, sans-serif;
+      text-decoration: none;
+      text-align: center;
+      height: 17px;
+      width: 87px;
+      padding: 1px 0 0 0px;
+}
+
+.button:hover {
+      background-color:#f0f0f0;
+}
+
+.button:active {
+      position:relative;
+      top:1px;
+}
+
+.header_buttons{
+      height: 80px;
+      padding: 20px 10px 10px 706px;
+}
+
+
+
+.header {
+
 }
 
 /* align footer links */
@@ -136,12 +167,11 @@ textarea {
 .align_center_to_right ul li{
       display: inline;
       text-decoration: none;
-      color: white !important;
 }
 /* end of align footer links */
 
 /* decorate footer links */
-.bottom_menu a:link {
+.bottom_menu a {
       text-decoration: none; 
       color: white;
       font: 12px Verdana, sans-serif;
