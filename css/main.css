@@ -147,20 +147,23 @@ textarea {
       font: 12px Verdana, sans-serif;
 }
 
-.bottom_menu a:visited {
-      color: white;
-}
-
 .bottom_menu a:after {
       content: " - ";
 }
-/* end of decorate footer links */
 
-#footer_list_id{
+/*remove '-' after the last bottom link*/
+.bottom_menu .last_link_classs:after {
+      content: " ";
+}
+
+/*reset computed styles for footer */
+.footer_list_class{
   padding: 0;
   margin: 0;
   line-height: 38px;
 }
+
+/* end of decorate footer links */
 
 /* ==========================================================================
    Helper classes
