@@ -102,11 +102,11 @@ textarea {
       background-repeat: no-repeat;
 }
 
-
+/*top buttons*/
 .button {
       box-shadow: 3px 3px 3px #333333;
       background-color: #ffffff;
-      border:1px solid #d8d8d8;
+      border: 1px solid #d8d8d8;
       display: inline-block;
       color: #000000;
       font: 12.75px Verdana, sans-serif;
@@ -127,15 +127,56 @@ textarea {
 }
 
 .header_buttons{
-      height: 80px;
+      height: 70px;
       padding: 20px 10px 10px 706px;
 }
+/*end of top buttons*/
 
 
-
-.header {
-
+.get_in_touch {
+      margin-top: 5px;
+      font: bold 18px Verdana, sans-serif;
+      color: rgb(177, 149, 58);
+      padding: 0 0 0 757px;
+      text-shadow: -1px -1px 0 #e5e5e5, 1px -1px 0 #e5e5e5, -1px 1px 0 #e5e5e5, 1px 1px 0 #e5e5e5;
 }
+
+.phone_num{
+      font: bold 27.47px Verdana, sans-serif;
+      color: black;
+      padding: 0 0 0 757px;
+}
+
+.logos_navigation{
+      margin-top: 75px;
+      overflow: hidden;
+}
+
+.logos {
+      /*
+      
+      margin-left: 500px;*/
+      float: right;
+      width: 50%;
+      text-align: right;
+      padding-right: 15px;
+}
+
+.logos li{
+      display: inline;
+      vertical-align: bottom;
+}
+
+.navigation{
+      padding-top: 15px;
+      margin-right: 50%;
+}
+
+.navigation li{
+      display: inline-block;
+}
+
+
 
 /* align footer links */
 .bottom_menu {
