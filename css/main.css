@@ -96,7 +96,7 @@ textarea {
 .wrap{
       width: 1000px;
       margin: 0 auto;
-      background-color: yellow;
+      /*background-color: yellow;*/
       background-image: url('../img/Header_background.png');
       background-position: top;
       background-repeat: no-repeat;
@@ -132,7 +132,7 @@ textarea {
 }
 /*end of top buttons*/
 
-
+/* get in touch */
 .get_in_touch {
       margin-top: 5px;
       font: bold 18px Verdana, sans-serif;
@@ -146,6 +146,8 @@ textarea {
       color: black;
       padding: 0 0 0 757px;
 }
+
+/* end of get in touch */
 
 .logos_navigation{
       overflow: hidden;
@@ -167,52 +169,74 @@ textarea {
       vertical-align: bottom;
 }
 
+/* main navigation */
 .navigation {
-      margin-top: 75px;
-      padding-top: 15px;
-      margin-right: 50%;
+      margin-top: 90px;
 }
 
-.navigation ul {
+.main_navigation {
       padding-left: 10px;
       margin-bottom: 0px;
+      width: 390px;
 }
 
-.navigation li{
+.main_navigation li{
       display: inline-block;
       height: 40px;
       width: 125px;
       text-align: center;
-      color: white;
       background-color: #b8b5b5;
       font: 18px Verdana, sans-serif;
       line-height: 40px;
+      margin-top: 15px;
 }
 
-.navigation li:hover{
+.main_navigation li a{
+      text-decoration: none;
+      color: white;
+}
+
+.navigation .active_element{
       background-color: #b2973d;
-      border-radius: 10px 10px 0px 0px / 10px 10px 0px 0px;
-      position: relative;
-      /*height: 55px;
-      line-height: 55px;*/
+      border-radius: 10px 10px 0px 0px / 10px 10px 0px 0px; 
+      margin-top: 0px;
+      padding-top: 10px;  
 }
 
-.navigation_menu{
-      visibility: hidden;
+.navigation_submenu{
       background-image: url('../img/navigation_menu_background.png');
-      margin-left: 10px;
       width: 975px;
-      opacity: 0px;
       height: 29px;
-      transition: all .3s linear;
+      margin-left: 10px;
 }
 
-
-.navigation:hover .navigation_menu{
-    visibility: visible;
-    opacity: 1;
-    height: 29px;
+.navigation_submenu ul{
+      margin-top: 0;
+      padding-left: 18px;
+      padding-top: 4px;
 }
+
+.navigation_submenu ul li{
+      display: inline-block;
+      margin-right: 58px;
+}
+
+.navigation_submenu ul li a{
+      font: 14px Verdana, sans-serif;
+      text-decoration: none;
+      color: white;
+}
+
+.navigation_submenu ul li .active_submenu_element{
+      color: black;
+}
+
+/* end of main navigation */
+
+
+
+
+
 
 /* align footer links */
 .bottom_menu {
