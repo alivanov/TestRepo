@@ -230,13 +230,48 @@ textarea {
 .navigation_submenu ul li .active_submenu_element{
       color: black;
 }
-
 /* end of main navigation */
 
+/* content top*/
+.navigation_side_box{
+      background-image: url('../img/nav_side_box.png'); 
+      margin-left: 17px;
+      width: 208px;
+      height: 254px;
+      margin-top: 3px;
+      float: left;
+}
 
+.button_contact img{
+      padding-top: 210px;
+      padding-left: 20px;
+}
 
+.button_contact:active {
+      position:relative;
+      top:1px;
+}
 
+.content_supply{
+      background-image: url('../img/Content_supply.png');  
+      height: 300px;
+      width: 747px;
+      margin-top: 10px;
+      margin-left: 238px;
+}
+/* end of content top*/
 
+.content_body{
+      position: relative;
+      z-index: -1;
+      top: -80px;
+      clear: both;
+      background-image: url('../img/content_body.png');
+      height: 1277px;
+      width: 695px;
+      float: right;
+      margin-right: 50px;
+}
 
 /* align footer links */
 .bottom_menu {
@@ -273,6 +308,10 @@ textarea {
 /* end of align footer links */
 
 /* decorate footer links */
+.bottom_menu{
+      clear:both;
+}
+
 .bottom_menu a {
       text-decoration: none; 
       color: white;
