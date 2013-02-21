@@ -267,10 +267,23 @@ textarea {
       top: -80px;
       clear: both;
       background-image: url('../img/content_body.png');
-      height: 1277px;
+      /*height: 1277px;*/
       width: 695px;
       float: right;
       margin-right: 50px;
+}
+
+.about{
+      background-color: yellow;
+      margin: 30px auto;
+      width: 637px;
+      /*height: 683px;*/
+      border-radius: 0px 0px 30px 30px / 0px 0px 30px 30px;
+}
+
+.about p{
+      font: bold 14px Verdana, sans-serif;
+      padding-top: 120px;
 }
 
 /* align footer links */
